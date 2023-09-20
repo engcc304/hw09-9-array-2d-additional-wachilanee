@@ -66,7 +66,7 @@ int main() {
             for ( j = 0 ; j < cols1 ; j++ ) {
                 printf( "%d ", matrix3[ i ][ j ] ) ;
             }
-            printf("\ns");
+            printf("\n");
         }
 
     return 0;
