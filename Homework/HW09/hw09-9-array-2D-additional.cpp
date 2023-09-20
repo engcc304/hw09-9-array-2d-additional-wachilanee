@@ -57,7 +57,7 @@ int main() {
     // printf( "Input :" ) ;
     for ( i = 0 ; i < row1 ; i++ ){
         for ( j = 0 ; j < cols1 ; j++ ) {
-             matrix3[ i ][ j ] = matrix[ i ][ j ] + matrix2[ i ][ j ];
+            matrix3[ i ][ j ] = matrix[ i ][ j ] + matrix2[ i ][ j ];
         }
     }
 
