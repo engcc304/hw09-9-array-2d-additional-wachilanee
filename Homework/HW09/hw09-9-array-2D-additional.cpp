@@ -28,24 +28,24 @@ int main() {
     
     int i, j, row1, cols1, row2, cols2;
 
-    printf("Array1 element :") ;
+    printf("Array1 element :\n") ;
     scanf( "%d %d", &row1, &cols1 ) ;
 
     int matrix[ row1 ][ cols1 ] ;
     
-    printf( "Input :" ) ;
+    printf( "Input :\n" ) ;
     for ( i = 0 ; i < row1 ; i++ ){
         for ( j = 0 ; j < cols1 ; j++ ) {
             scanf( "%d", &matrix[ i ][ j ] ) ;
         }
     }
 
-    printf("Array2 element :") ;
+    printf("Array2 element :\n") ;
     scanf( "%d %d", &row2, &cols2 ) ;
 
     int matrix2[ row2 ][ cols2 ] ;
     
-    printf( "Input :" ) ;
+    printf( "Input :\n" ) ;
     for ( i = 0 ; i < row2 ; i++ ){
         for ( j = 0 ; j < cols2 ; j++ ) {
             scanf( "%d", &matrix2[ i ][ j ] ) ;
@@ -61,12 +61,12 @@ int main() {
         }
     }
 
-    printf( "Array1 + Array2 = Array3\n    " ) ;
+    printf( "Array1 + Array2 = Array3\n" ) ;
     for ( i = 0 ; i < row1 ; i++ ) {
             for ( j = 0 ; j < cols1 ; j++ ) {
                 printf( "%d ", matrix3[ i ][ j ] ) ;
             }
-            printf("\n    ");
+            printf("\ns");
         }
 
     return 0;
