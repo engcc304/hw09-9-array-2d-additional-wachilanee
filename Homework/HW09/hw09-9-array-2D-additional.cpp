@@ -64,9 +64,9 @@ int main() {
     printf( "Array1 + Array2 = Array3\n" ) ;
     for ( i = 0 ; i < row1 ; i++ ) {
             for ( j = 0 ; j < cols1 ; j++ ) {
-                printf( "%d ", matrix3[ i ][ j ] ) ;
+                printf( "%d", matrix3[ i ][ j ] ) ;
             }
-            printf("\n");
+            printf("\n ");
         }
 
     return 0;
